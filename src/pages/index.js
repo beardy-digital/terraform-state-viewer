@@ -1,8 +1,9 @@
 import Head from 'next/head'
+import TerraformStateSchema from '../services/terraform-state-schema'
 
 const Home = () => (
   <div className="container">
-    Hello!
+    {new TerraformStateSchema().Version()}
   </div>
 )
 

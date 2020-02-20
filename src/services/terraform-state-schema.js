@@ -7,3 +7,5 @@ class TerraformStateSchema {
         return this.version;
     }
 }
+
+export default TerraformStateSchema
