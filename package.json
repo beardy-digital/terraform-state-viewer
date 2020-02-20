@@ -1,20 +1,14 @@
 {
-  "name": "terraform-state-viewer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "state-viewer",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build ./src",
-    "start": "next start ./src",
-    "export": "next export ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "next": "^9.2.2",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "next": "9.2.2",
+    "next-routes": "^1.4.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   }
 }
